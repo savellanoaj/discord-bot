@@ -41,9 +41,9 @@ async def on_message(message):
     if message.author == client.user: 
         return
 
-    '''If the channel name is random it will run more conditional statements that will check the
+    '''If the channel name is bot-commands it will run more conditional statements that will check the
     string indexes and lower case the values of the users messages'''
-    if channel == "random":
+    if channel == "bot-commands":
 
         #try-except block to handle any exceptions from user_message
         try: 
